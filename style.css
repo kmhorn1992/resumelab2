@@ -121,28 +121,24 @@ body {
     min-width:100;
   }
 
-  .contactcontainer{
-    margin: auto; 
+  .contactcontainer  {
+    align-content: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-top: 5em;
   }
   
   
 .boxpics{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* or space-around */
+  justify-content: inline;
 }
 
-a {
-  display: inline-block;
-  margin-bottom: 8px;
-  width: calc(50% - 4px);
-  text-decoration: none;
-  color: black;
-}
 
 @media screen and (min-width: 50em) {
   a {
-    width: calc(25% - 6px);
+    width: 600px;
   }
 }
 
@@ -161,6 +157,5 @@ figure {
   height: auto;
   display: block;
   background: #ccc;
-  transition: transform 
 }
 
