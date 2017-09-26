@@ -96,23 +96,32 @@ body {
   margin-right: auto;
   margin-bottom: 20px;
 }
-  
+  .row2{
+    position: relative;
+    left:30em;
+    bottom: 10em;
+    
+  }
   #work{
     background-color: black;
     color: white;
   }
 
-  .footerimg{
+  .img{
     display: inline-block;
     height: 50px;
-    width: 50px;
+    
     align-content: center;
-    padding-left: 20em;
+    
   }
 
   footer{
     align-content: center;
-    padding-left: 5em;
+    padding-left: 30em;
+    border-top: solid black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  
   }
   .video{
     max-height: 100%;
@@ -126,6 +135,7 @@ body {
     margin-left: 10em;
     margin-right: 10em;
     padding-top: 5em;
+    padding-bottom: 3em;
   }
   
   
@@ -138,7 +148,7 @@ body {
 
 @media screen and (min-width: 50em) {
   a {
-    width: 600px;
+    width: calc(25% - 6px);
   }
 }
 
@@ -157,5 +167,6 @@ figure {
   height: auto;
   display: block;
   background: #ccc;
+  transition: transform 
 }
 
