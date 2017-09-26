@@ -94,58 +94,93 @@
         <div class="parallax"><img src="triangle.jpg"></div>
     </div>
 
-    <section class="gridpictures ">
-        <img class="col s12 m6 l4" src="pic5.jpg">
-        <img class="col s12 m6 l4" src="pic6.jpg">
-        <img class="col s12 m6 l4" src="pic7.jpg">
-        <img class="col s12 m6 l4" src="pic8.jpg">
-        <img class="col s12 m6 l4" src="pic9.jpg">
-        <img class="col s12 m6 l4" src="pic10.jpg">
-    </section>
+
+
+
+
+
+    <div class="boxpics">
+        <a href="pic5.jpg">
+            <figure>
+                <img src="pic5.jpg" alt="">
+            </figure>
+        </a>
+        <a href="pic6.jpg">
+            <figure>
+                <img src="pic6.jpg" alt="">
+            </figure>
+        </a>
+        <a href="pic7.jpg">
+            <figure>
+                <img src="pic7.jpg">
+            </figure>
+        </a>
+        <a href="pic8.jpg">
+            <figure>
+                <img src="pic8.jpg" alt="">
+            </figure>
+        </a>
+        <a href="pic9.jpg">
+            <figure>
+                <img src="pic9.jpg" alt="">
+            </figure>
+        </a>
+        <a href="pic10.jpg">
+            <figure>
+                <img src="pic10.jpg" alt="">
+            </figure>
+        </a>
+    </div>
+
+
+
+
 
     <div class="parallax-container">
         <div class="parallax"><img src="seam3.jpg"></div>
     </div>
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/192573022?color=ffffff&title=0&byline=0&portrait=0" width="1200" height="675"
-                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <div class="video">
+        <iframe src="https://player.vimeo.com/video/192573022?color=ffffff&title=0&byline=0&portrait=0" width="1200" height="675"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="contactcontainer">
+            <form action="/action_page.php">
 
-                <footer class="footer section-padding">
-                    <img class="footerimg" src="images/dribble.svg" alt="">
-                    <span class="uppercase">thanks for visiting!</span>
-                    <img class="footerimg" src="images/instagram.svg" alt="">
-                </footer>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                <div class="contactcontainer">
-                    <form action="/action_page.php">
-                  
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
                       </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                  
-                    </form>
-                  </div>
 
-            <!-- jQuery that materialize depends on -->
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-                crossorigin="anonymous"></script>
-            <!-- Compiled and minified JavaScript -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-            <script src="script.js"></script>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+
+        <footer class="footer section-padding">
+            <img class="footerimg" src="images/dribble.svg" alt="">
+            <span class="uppercase">thanks for visiting!</span>
+            <img class="footerimg" src="images/instagram.svg" alt="">
+        </footer>
+
+
+
+        <!-- jQuery that materialize depends on -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
