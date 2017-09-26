@@ -148,7 +148,7 @@ body {
 
 @media screen and (min-width: 50em) {
   a {
-    width: calc(25% - 6px);
+    width: calc(25% - 1px);
   }
 }
 
